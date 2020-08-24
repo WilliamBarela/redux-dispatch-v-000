@@ -3,7 +3,7 @@ let state = {count: 0};
 function changeState(state, action){
     switch (action.type) {
       case 'INCREASE_COUNT':
-        return {count: state.count + 1}
+        return {count: state.count + 2}
       default:
         return state;
     }
